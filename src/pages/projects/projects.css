@@ -1,0 +1,71 @@
+/* Attributes */
+
+/* Classes */
+.p-img {
+  border-radius: 2vh;
+  /* border: 1px solid grey; */
+}
+.galaga-link {
+  /* border: 1px solid purple; */
+  text-decoration: none;
+  width: 50%;
+}
+.rockdodger-link {
+  /* border: 1px solid blue; */
+  text-decoration: none;
+  width: 50%;
+  left: 50%;
+}
+
+.animated-box {
+  width: 200%;
+  animation: slide 80s linear infinite;
+}
+
+.animated-box2 {
+  width: 200%;
+  animation: slide2 90s linear infinite;
+}
+
+.p-herovid {
+  width: 100%;
+  top: 170px;
+
+  transform: scale(2);
+}
+
+/* ID's */
+#proj-hero-img {
+  width: 100%;
+}
+
+/* Animation */
+@keyframes slide {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -518%;
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: -808%;
+  }
+}
+
+/* Responsive */
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .p-herovid {
+    top: 320px;
+    right: 200px;
+    width: 1100px;
+    bottom: 130px;
+    height: 500px;
+    transform: scale(2);
+  }
+}

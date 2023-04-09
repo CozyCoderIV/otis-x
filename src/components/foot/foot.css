@@ -1,0 +1,64 @@
+/* Attributes */
+
+/* Classes */
+.footer {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  /* margin-top: 150px; */
+  /* border-top: whitesmoke; */
+}
+.foot-link {
+  text-decoration: none;
+}
+
+/* ID's */
+#foot-logo {
+  transform: scale(0.4);
+}
+#foot-logo-container {
+  width: 40%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  /* border: 1px solid grey; */
+
+  height: 300px;
+  overflow: hidden;
+
+  left: 15%;
+}
+#foot-logo-title {
+  border: 1px solid grey;
+  border-radius: 4vh;
+  background-color: black;
+  width: 40%;
+  height: 50px;
+
+  text-align: center;
+  overflow: hidden;
+
+  margin-top: 16px;
+  left: 15%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .footer {
+    top: 5px;
+    height: 294px;
+    overflow-y: hidden;
+  }
+  #foot-logo {
+    transform: scale(0.37);
+    right: 15px;
+  }
+  #foot-logo-container {
+    left: 0%;
+    width: 200px;
+    height: 260px;
+    /* border: 1px solid red; */
+  }
+  #foot-logo-title {
+    display: none;
+  }
+}
